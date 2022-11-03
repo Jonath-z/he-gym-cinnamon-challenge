@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Button from "../Button";
 import { ListItem } from "../cards";
 import { MenuIcon, PlayIcon } from "../vectors";
@@ -7,7 +7,7 @@ import { MenuIcon, PlayIcon } from "../vectors";
 const Header = () => {
   const [scrollOutOfRange, setScrollOutOfRange] = useState(false);
 
-  useState(() => {
+  useEffect(() => {
     if (typeof window !== "undefined") {
       window.onscroll = () => {
         window.pageYOffset > 50
@@ -52,8 +52,10 @@ const Header = () => {
 
           <div
             className={`w-fit h-fit ${
-              scrollOutOfRange ? "bg-white border-[#5135FF]" : "bg-[#1C1C1C]"
-            } border-[3px] transition-box-shadow hover:shadow-button duration-300 ease-in-out hover:border-[#5135FF] border-white
+              scrollOutOfRange
+                ? "bg-white border-[#5135FF]"
+                : "bg-[#1C1C1C] border-white"
+            } border-[3px] transition-box-shadow hover:shadow-button duration-300 ease-in-out hover:border-[#5135FF]
             rounded-full p-2 cursor-pointer`}
           >
             <PlayIcon

@@ -175,16 +175,15 @@ const Footer = () => {
             <p className="font-montBold pt-10 pb-8">Our newsletter</p>
 
             <div className="flex flex-col">
-              <div class="relative">
+              <div className="relative">
                 <input
                   type="text"
                   id="floating_filled"
-                  class="block rounded-t-lg pt-5 w-full font-montSemiBold text-base bg-transparent text-white border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                  placeholder=" "
+                  className="block rounded-t-lg pt-5 w-full font-montSemiBold text-base bg-transparent text-white border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600"
                 />
                 <label
-                  Htmlfor="floating_filled"
-                  class="absolute text-base text-semi-gray font-montHavy-extralight font-semibold dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-0 z-10 origin-[0] peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4"
+                  htmlfor="floating_filled"
+                  className="absolute text-base text-semi-gray font-montHavy-extralight font-semibold dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-0 z-10 origin-[0] peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4"
                 >
                   Your E-mail
                 </label>
