@@ -37,6 +37,7 @@ module.exports = {
       },
       lineHeight: {
         large: "56px",
+        "extra-large": "105px",
       },
       transitionProperty: {
         width: "width",
@@ -58,6 +59,7 @@ module.exports = {
         xsm: "12px",
         slg: "20px",
         large: "54px",
+        "extra-large": "80px",
       },
     },
   },

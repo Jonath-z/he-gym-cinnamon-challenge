@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="bg-hero bg-black/90 pt-28">
       <div className="px-5 pt-5 animate-fadin lg:py-20 lg:px-10 xl:max-w-6xl xl:mx-auto xl:px-0 opacity-100 transition-all delay-300 duration-500 ease-in">
-        <h1 className="text-white text-4.5xl md:text-5xl md:leading-large font-montHavy font-bold lg:text-[80px] lg:leading-[105px]">
+        <h1 className="text-white text-4.5xl md:text-5xl md:leading-large font-montHavy font-bold lg:text-extra-large lg:leading-extra-large">
           Results focused design & <br className="hidden lg:block" />
           development
           <br className="md:hidden" />
