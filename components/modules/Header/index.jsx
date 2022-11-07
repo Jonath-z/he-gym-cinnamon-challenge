@@ -53,15 +53,15 @@ const Header = () => {
           <div
             className={`w-fit h-fit ${
               scrollOutOfRange
-                ? "bg-white border-[#5135FF]"
+                ? "bg-white border-blue-primary"
                 : "bg-[#1C1C1C] border-white"
-            } border-[3px] transition-box-shadow hover:shadow-button duration-300 ease-in-out hover:border-[#5135FF]
+            } border-[3px] transition-box-shadow hover:shadow-button duration-300 ease-in-out hover:border-blue-primary
             rounded-full p-2 cursor-pointer`}
           >
             <PlayIcon
               className={`${
                 scrollOutOfRange
-                  ? "text-[#5135FF] hover:text-white"
+                  ? "text-blue-primary hover:text-white"
                   : "text-white"
               } text-3xl`}
             />

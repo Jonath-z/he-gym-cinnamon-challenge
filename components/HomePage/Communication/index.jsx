@@ -8,10 +8,10 @@ const Communication = () => {
     <section>
       <div className="px-5 py-20 relative lg:px-10 lg:py-28 xl:max-w-6xl xl:mx-auto xl:px-0">
         <div className="relative">
-          <div className="absolute -top-20 -left-7 lg:-left-9 text-[175px] lg:text-[258px] lg:-top-32 font-montBold text-double-quote rotate-180 xl:flex">
+          <div className="absolute -top-20 -left-7 lg:-left-9 text-175 lg:text-258 lg:-top-32 font-montBold text-double-quote rotate-180 xl:flex">
             ,<span className="lg:hidden xl:block">,</span>
           </div>
-          <h1 className="font-montBold text-[32px] leading-[44px] lg:text-4.5xl lg:leading-large">
+          <h1 className="font-montBold text-medium-large leading-44 lg:text-4.5xl lg:leading-large">
             They’re consistent,
             <br className="md:hidden" /> and the
             <br className="md:hidden lg:block" /> communication is
@@ -42,7 +42,7 @@ const Communication = () => {
           </p>
         </div>
 
-        <div className="hidden lg:block absolute w-[200px] h-[67px] right-10 top-44">
+        <div className="hidden lg:block absolute w-200 h-67 right-10 top-44">
           <Image src="/images/pingLogo.webp" fill={true} alt="ping logo" />
         </div>
 

@@ -20,7 +20,7 @@ const Prefooter = () => {
       <img
         src="/images/work-together.webp"
         alt="work together"
-        className="absolute bottom-0 left-0 w-32 md:w-56 lg:w-[26rem]"
+        className="absolute bottom-0 left-0 w-32 md:w-56 lg:w-relative-26"
       />
     </section>
   );

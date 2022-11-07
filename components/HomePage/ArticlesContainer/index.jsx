@@ -7,7 +7,7 @@ const ArticleContainer = () => {
   return (
     <section>
       <div className="px-5 relative pb-20 flex flex-col gap-10 xl:max-w-6xl xl:mx-auto xl:px-0 xl:py-28">
-        <h1 className="font-montBold text-4.5xl md:leading-large lg:text-large lg:leading-[72px]">
+        <h1 className="font-montBold text-4.5xl md:leading-large lg:text-large lg:leading-72">
           Stay in the loop <br className="hidden md:block" /> on tech topics
         </h1>
 
@@ -22,24 +22,24 @@ const ArticleContainer = () => {
                   <img
                     src={imageUrl}
                     alt={title}
-                    className="w-[175px] h-[107px] md:w-[218px] md:h-[132px] lg:w-[352px] lg:h-[215px]"
+                    className="w-175 h-107 md:w-218 md:h-132 lg:w-352 lg:h-215"
                   />
                   <p className="uppercase text-sm font-montBold">{theme}</p>
-                  <div className="flex justify-around items-center lg:justify-between w-[175px] lg:w-[352px]">
-                    <div className="max-w-[11rem] hidden lg:block overflow-hidden whitespace-nowrap text-ellipsis">
+                  <div className="flex justify-around items-center lg:justify-between w-175 lg:w-352">
+                    <div className="max-w-relative-11 hidden lg:block overflow-hidden whitespace-nowrap text-ellipsis">
                       <Description>{author}</Description>
                     </div>
-                    <div className="w-[6px] h-[6px] bg-yellow-400 rounded-full" />
+                    <div className="w-smaller h-smaller bg-yellow-400 rounded-full" />
                     <Description>
                       <span>{date}</span>
                     </Description>
-                    <div className="w-[6px] h-[6px] bg-yellow-400 rounded-full" />
+                    <div className="w-smaller h-smaller bg-yellow-400 rounded-full" />
                     <Description>
                       <span>{readingTime}</span>
                     </Description>
                   </div>
 
-                  <h1 className="text-slg font-montBold md:w-[218px] lg:w-[352px]">
+                  <h1 className="text-slg font-montBold md:w-218 lg:w-352">
                     {title}
                   </h1>
                 </div>

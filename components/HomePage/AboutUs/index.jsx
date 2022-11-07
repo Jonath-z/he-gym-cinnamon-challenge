@@ -48,7 +48,7 @@ const AboutUs = () => {
         </div>
 
         <div className="hidden absolute right-0 top-0 bottom-0 lg:flex flex-col items-center xl:hidden">
-          <div className="w-[340px] h-[539px] relative my-auto">
+          <div className="w-340 h-539 relative my-auto">
             <Image
               src="/images/who-we-are.webp"
               alt="who we are"
@@ -59,7 +59,7 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="hidden absolute right-0 top-0 bottom-0 xl:flex flex-col items-center">
-        <div className="w-[340px] xl:w-[512px] xl:h-[70%] relative my-auto">
+        <div className="w-340 xl:w-512 xl:h-percentage-70 relative my-auto">
           <Image
             src="/images/who-we-are.webp"
             alt="who we are"

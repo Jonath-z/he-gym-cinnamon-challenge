@@ -13,7 +13,7 @@ const Project = ({ project }) => {
   return (
     <div className="flex flex-col gap-4">
       <div
-        className="relative h-[169px] md:h-[333px] md:w-full lg:h-[458px] cursor-pointer overflow-hidden lg:mt-20 py-3 transition-all"
+        className="relative h-169 md:h-333 md:w-full lg:h-458 cursor-pointer overflow-hidden lg:mt-20 py-3 transition-all"
         style={{ background }}
       >
         <Image

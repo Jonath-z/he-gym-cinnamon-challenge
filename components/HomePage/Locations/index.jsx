@@ -14,7 +14,7 @@ const Locations = () => {
         </h1>
         <div
           ref={container}
-          className="flex overflow-x-scroll gap-8 scrollbar-hide"
+          className="flex overflow-x-scroll gap-8 scrollbar-hide xl:"
         >
           {locations.map((location, index) => {
             return <Location key={index} location={location} />;

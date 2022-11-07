@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
 
           <div className="lg:w-full">
-            <h4 className="text-white text-2xl font-montBold lg:text-[32px]">
+            <h4 className="text-white text-2xl font-montBold lg:text-medium-large">
               All software,
               <br className="md:hidden" /> zero bullshit.
             </h4>
@@ -70,7 +70,7 @@ const Footer = () => {
               </div>
               <div>
                 <p className="font-montBold py-1">Belgrade</p>
-                <p className="font-montHavy-extralight font-semibold text-sm leading-[27px] md:leading-6">
+                <p className="font-montHavy-extralight font-semibold text-sm leading-27 md:leading-6">
                   Bulevar <br className="hidden md:block lg:hidden" />
                   vojvode
                   <br className="hidden md:block lg:hidden" /> Mišića
